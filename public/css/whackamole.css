@@ -1,0 +1,58 @@
+body {
+	background-image: url("/img/caddyshack.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#container {
+	margin: 5px;
+	width: 600px;
+	height: 600px;
+	background-color: #fff;
+	background-image: url("/img/golfCourseGrass.jpg");
+	cursor:url('/img/golfClubDriver.png'), auto !important;
+}
+.square {
+	width: 198px;
+	height: 198px;
+	background-color: #clear;
+	float: left;
+	opacity: 0;
+}
+.active {
+	opacity: 1;
+	background-image: url("/img/gopher.png");
+	background-repeat: no-repeat;
+}
+#start {
+	margin: 0px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	font-size: 20px;
+	background-image: url("/img/golfBall.jpg");
+}
+#gameTimer {
+	width: 180px;
+	height: 40px;
+	font-style: bold;
+	font-size: 18px;
+	background-color: #fff;
+	margin-left: 15px;
+}
+#scoreButton  {
+	width: 120px;
+	height: 40px;
+	font-style: bold;
+	font-size: 20px;
+	background-color: #fff;
+	margin-left: 40px;
+}
+#resetButton {
+	width: 120px;
+	height: 40px;
+	font-style: bold;
+	font-size: 20px;
+	background-color: #fff;
+	margin-left: 10px;
+}
+
